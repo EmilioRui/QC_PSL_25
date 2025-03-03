@@ -75,6 +75,11 @@ Install Anaconda https://www.anaconda.com/docs/main
 conda env create -f environment.yml
 ```
 
+activate it:
+```bash
+conda activate QC25
+```
+
 and install the python packages
 ```bash
 python3 -m pip install -r requirements.txt
