@@ -69,10 +69,15 @@ If you need any help on how to setup a repository here are some guides:
 # 5. Update - How to install on windows.
 Install Anaconda https://www.anaconda.com/docs/main
 
-### Activate the environment with:
+### Activate the environment by running the following command (you need to be in the project folder):
 
 ```bash
 conda env create -f environment.yml
 ```
 
-Everything should then work
+and install the python packages
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Theoretically, everything should work
