@@ -82,7 +82,7 @@ conda activate QC25
 
 and install the python packages
 ```bash
-python3 -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 Theoretically, everything should work
