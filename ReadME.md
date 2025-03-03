@@ -65,3 +65,7 @@ If you need any help on how to setup a repository here are some guides:
 - https://www.geeksforgeeks.org/git-setting-up-a-repository/
 - https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
 - https://docs.gitlab.com/user/project/repository/
+
+# 5. Update - How to install on windows.
+Install Anaconda https://www.anaconda.com/docs/main
+
