@@ -4,45 +4,33 @@ This repository contains the Jupyter Notebooks for the Quantum Computing course 
 
 ## Installation Guide
 
-### 1. Install Required Packages
+### 1. Install Anaconda
 
-This project requires several Python packages, including Qiskit. You can install all required dependencies using the `requirements.txt` file.
+First, install Anaconda if you don't have it already: https://www.anaconda.com/download
 
-#### **Step 1: Create a Virtual Environment (Optional but Recommended)**
-It is a good practice to create a virtual environment before installing dependencies:
+### 2. Create and Activate the Conda Environment
 
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
-```
-
-#### Step 2: Install Dependencies
-
-Run the following command to install all necessary packages:
+Navigate to the project folder and create the conda environment from the provided `environment.yml` file:
 
 ```bash
-python3 -m pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
-# 2. Install Jupyter Notebook
-
-To run the Jupyter Notebook, you need to install Jupyter. You can follow the official installation guide here or use the following command:
+Activate the environment:
 
 ```bash
-python3 -m pip install jupyter
+conda activate QC25
 ```
-
 
 # 3. Running the Notebook
 
-Once everything is installed, open Jupyter Notebook and navigate to the project directory:
+Once the environment is activated, launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
-Then, open the .ipynb file and run the cells to simulate the quantum circuit.
+Then, open any `.ipynb` file and run the cells to simulate the quantum circuits.
 
 # 4. Course Guidelines
 
@@ -65,24 +53,3 @@ If you need any help on how to setup a repository here are some guides:
 - https://www.geeksforgeeks.org/git-setting-up-a-repository/
 - https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
 - https://docs.gitlab.com/user/project/repository/
-
-# 5. Update - How to install on windows.
-Install Anaconda https://www.anaconda.com/docs/main
-
-### Activate the environment by running the following command (you need to be in the project folder):
-
-```bash
-conda env create -f environment.yml
-```
-
-activate it:
-```bash
-conda activate QC25
-```
-
-and install the python packages
-```bash
-python -m pip install -r requirements.txt
-```
-
-Theoretically, everything should work
