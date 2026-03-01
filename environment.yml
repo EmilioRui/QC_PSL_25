@@ -1,4 +1,4 @@
-name: QC25
+name: QC_PSL_week
 channels:
   - conda-forge
   - defaults
@@ -13,11 +13,11 @@ dependencies:
   - sympy
   - pip
   - pip:
-    - qiskit>=1.4.0
-    - qiskit-aer>=0.16.1
-    - qiskit-experiments>=0.8.2
-    - qiskit-ibm-runtime>=0.36.1
-    - qiskit-ibm-experiment>=0.4.8
-    - lmfit>=1.3.2
-    - pylatexenc>=2.10
-    - uncertainties>=3.2.2
+    - qiskit==1.4.0
+    - qiskit-aer==0.16.1
+    - qiskit-experiments==0.8.2
+    - qiskit-ibm-runtime==0.36.1
+    - qiskit-ibm-experiment==0.4.8
+    - lmfit==1.3.2
+    - pylatexenc==2.10
+    - uncertainties==3.2.2

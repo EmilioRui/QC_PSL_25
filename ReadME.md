@@ -19,7 +19,8 @@ conda env create -f environment.yml
 Activate the environment:
 
 ```bash
-conda activate QC25
+conda activate QC_PSL_week
+
 ```
 
 # 3. Running the Notebook
