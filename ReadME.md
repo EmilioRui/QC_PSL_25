@@ -44,7 +44,7 @@ You can access the latest lecture by either:
 
 You will need to create a new repository to store your solutions.
 
-By Friday, March 7th, you must submit the link to your repository.
+By Friday, March 6th, you must submit the link to your repository.
 You are free to use any Git remote service of your choice, such as:
 - GitHub https://github.com/
 - GitLab https://about.gitlab.com/
